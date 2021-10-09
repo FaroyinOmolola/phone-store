@@ -125,7 +125,7 @@ function HomePage() {
     });
   };
   items = (
-    <Stack spacing={2}>
+    <Stack spacing={2} sx={{ mx: "auto" }}>
       <Pagination
         count={Math.ceil(dataReturned?.total / 20)}
         page={page}
